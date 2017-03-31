@@ -1,0 +1,61 @@
+﻿Build started 2016/9/29 8:19:01.
+     1>Project "D:\Gstreamer\test\GST_TEST\libvediorecorder\libvediorecorder.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(364,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D LIBVEDIORECORDER_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "ebml-write.c" "matroska-ids.c" "matroska-mux.c" videorecorder.c videorecordermux.c
+         videorecordermux.c
+     1>c:\gstreamer\1.0\x86\include\glib-2.0\glib\gmacros.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\gstreamer\1.0\x86\include\glib-2.0\gobject\gsignal.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>d:\gstreamer\test\gst_test\libvediorecorder\videorecordermux.c(477): warning C4101: 'map' : unreferenced local variable
+         videorecorder.c
+     1>c:\gstreamer\1.0\x86\include\glib-2.0\glib\gmacros.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\gstreamer\1.0\x86\include\glib-2.0\gobject\gsignal.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>d:\gstreamer\test\gst_test\libvediorecorder\videorecorder.c(11): warning C4013: 'register_videorecordermux' undefined; assuming extern returning int
+     1>d:\gstreamer\test\gst_test\libvediorecorder\videorecorder.c(14): warning C4013: 'register_mymatroskamux' undefined; assuming extern returning int
+         matroska-mux.c
+     1>c:\gstreamer\1.0\x86\include\glib-2.0\glib\gmacros.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\gstreamer\1.0\x86\include\glib-2.0\gobject\gsignal.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>d:\gstreamer\test\gst_test\libvediorecorder\matroska-mux.c(758): warning C4244: '=' : conversion from 'double' to 'guint8', possible loss of data
+     1>d:\gstreamer\test\gst_test\libvediorecorder\matroska-mux.c(759): warning C4244: '=' : conversion from 'double' to 'guint8', possible loss of data
+     1>d:\gstreamer\test\gst_test\libvediorecorder\matroska-mux.c(760): warning C4244: '=' : conversion from 'double' to 'guint8', possible loss of data
+     1>d:\gstreamer\test\gst_test\libvediorecorder\matroska-mux.c(1031): warning C4133: 'function' : incompatible types - from 'GstVideoMultiviewFlags *' to 'guint *'
+     1>d:\gstreamer\test\gst_test\libvediorecorder\matroska-mux.c(1544): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\gstreamer\test\gst_test\libvediorecorder\matroska-mux.c(1954): warning C4244: '=' : conversion from 'double' to 'guint64', possible loss of data
+     1>d:\gstreamer\test\gst_test\libvediorecorder\matroska-mux.c(2270): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>d:\gstreamer\test\gst_test\libvediorecorder\matroska-mux.c(2284): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>d:\gstreamer\test\gst_test\libvediorecorder\matroska-mux.c(2298): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>d:\gstreamer\test\gst_test\libvediorecorder\matroska-mux.c(2811): warning C4018: '>' : signed/unsigned mismatch
+     1>d:\gstreamer\test\gst_test\libvediorecorder\matroska-mux.c(3331): warning C4244: '=' : conversion from 'guint64' to 'guint8', possible loss of data
+     1>d:\gstreamer\test\gst_test\libvediorecorder\matroska-mux.c(3571): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>d:\gstreamer\test\gst_test\libvediorecorder\matroska-mux.c(3600): warning C4244: '=' : conversion from 'guint64' to 'guint16', possible loss of data
+     1>d:\gstreamer\test\gst_test\libvediorecorder\matroska-mux.c(3626): warning C4244: '=' : conversion from 'guint64' to 'gint16', possible loss of data
+         matroska-ids.c
+     1>c:\gstreamer\1.0\x86\include\glib-2.0\glib\gmacros.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\gstreamer\1.0\x86\include\glib-2.0\gobject\gsignal.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>d:\gstreamer\test\gst_test\libvediorecorder\matroska-ids.c(152): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\gstreamer\test\gst_test\libvediorecorder\matroska-ids.c(327): warning C4018: '<' : signed/unsigned mismatch
+         ebml-write.c
+     1>c:\gstreamer\1.0\x86\include\glib-2.0\glib\gmacros.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\gstreamer\1.0\x86\include\glib-2.0\gobject\gsignal.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>d:\gstreamer\test\gst_test\libvediorecorder\ebml-write.c(397): warning C4244: 'function' : conversion from 'guint64' to 'size_t', possible loss of data
+     1>d:\gstreamer\test\gst_test\libvediorecorder\ebml-write.c(498): warning C4244: 'function' : conversion from 'guint64' to 'guint', possible loss of data
+     1>d:\gstreamer\test\gst_test\libvediorecorder\ebml-write.c(514): warning C4244: 'function' : conversion from 'guint64' to 'guint', possible loss of data
+     1>d:\gstreamer\test\gst_test\libvediorecorder\ebml-write.c(541): warning C4018: '>=' : signed/unsigned mismatch
+     1>d:\gstreamer\test\gst_test\libvediorecorder\ebml-write.c(817): warning C4244: 'function' : conversion from 'guint64' to 'guint', possible loss of data
+         Generating Code...
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libvediorecorder.dll" /INCREMENTAL /NOLOGO /LIBPATH:C:\gstreamer\1.0\x86\lib "gstreamer-1.0.lib" "glib-2.0.lib" "gobject-2.0.lib" "gstbase-1.0.lib" "gsttag-1.0.lib" "gstaudio-1.0.lib" "gstvideo-1.0.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libvediorecorder.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libvediorecorder.lib" /MACHINE:X86 /DLL "Debug\ebml-write.obj"
+         "Debug\matroska-ids.obj"
+         "Debug\matroska-mux.obj"
+         Debug\videorecorder.obj
+         Debug\videorecordermux.obj
+            Creating library C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libvediorecorder.lib and object C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libvediorecorder.exp
+         libvediorecorder.vcxproj -> C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libvediorecorder.dll
+     1>Done Building Project "D:\Gstreamer\test\GST_TEST\libvediorecorder\libvediorecorder.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.28

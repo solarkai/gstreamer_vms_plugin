@@ -1,0 +1,26 @@
+﻿Build started 2016/9/7 11:02:01.
+     1>Project "D:\Gstreamer\test\GST_TEST\GST_TEST\GST_TEST.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GST_TEST.cpp
+         GST_TEST.cpp
+     1>c:\gstreamer\1.0\x86\include\glib-2.0\glib\gmacros.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\gstreamer\1.0\x86\include\glib-2.0\gobject\gsignal.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>d:\gstreamer\test\gst_test\gst_test\gst_test.cpp(154): warning C4101: 'rtph264depay_srcpad' : unreferenced local variable
+     1>d:\gstreamer\test\gst_test\gst_test\gst_test.cpp(232): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\gstreamer\test\gst_test\gst_test\gst_test.cpp(266): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\gstreamer\test\gst_test\gst_test\gst_test.cpp(326): warning C4101: 'rtph264depay' : unreferenced local variable
+     1>d:\gstreamer\test\gst_test\gst_test\gst_test.cpp(560): warning C4101: 'decodebin_sinkpad1' : unreferenced local variable
+     1>d:\gstreamer\test\gst_test\gst_test\gst_test.cpp(560): warning C4101: 'h264parser_sinkpad' : unreferenced local variable
+     1>d:\gstreamer\test\gst_test\gst_test\gst_test.cpp(560): warning C4101: 'autovideosink_sinkpad1' : unreferenced local variable
+     1>d:\gstreamer\test\gst_test\gst_test\gst_test.cpp(855): warning C4805: '!=' : unsafe mix of type 'gboolean' and type 'bool' in operation
+     1>d:\gstreamer\test\gst_test\gst_test\gst_test.cpp(856): warning C4805: '!=' : unsafe mix of type 'gboolean' and type 'bool' in operation
+     1>d:\gstreamer\test\gst_test\gst_test\gst_test.cpp(857): warning C4805: '!=' : unsafe mix of type 'gboolean' and type 'bool' in operation
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Gstreamer\test\GST_TEST\Debug\GST_TEST.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\gstreamer\1.0\x86\lib "gstreamer-1.0.lib" "glib-2.0.lib" "gobject-2.0.lib" "gstrtsp-1.0.lib" "gstsdp-1.0.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Gstreamer\test\GST_TEST\Debug\GST_TEST.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Gstreamer\test\GST_TEST\Debug\GST_TEST.lib" /MACHINE:X86 Debug\appsrcsinktest.obj
+         Debug\GST_TEST.obj
+         GST_TEST.vcxproj -> D:\Gstreamer\test\GST_TEST\Debug\GST_TEST.exe
+     1>Done Building Project "D:\Gstreamer\test\GST_TEST\GST_TEST\GST_TEST.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.20

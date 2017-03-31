@@ -1,0 +1,400 @@
+﻿Build started 2016/9/29 8:18:15.
+     1>Project "D:\Gstreamer\test\GST_TEST\libvediorecorder\libvediorecorder.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D LIBVEDIORECORDER_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TC /errorReport:prompt "ebml-write.c" "matroska-ids.c" "matroska-mux.c" videorecorder.c videorecordermux.c
+         videorecordermux.c
+     1>C:\gstreamer\1.0\x86\include\glib-2.0\glib/gmacros.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>C:\gstreamer\1.0\x86\include\glib-2.0\gobject/gsignal.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>C:\gstreamer\1.0\x86\include\gstreamer-1.0\gst/base/gstbytewriter.h(310): warning C4244: '+=' : conversion from 'gssize' to 'guint', possible loss of data
+     1>C:\gstreamer\1.0\x86\include\gstreamer-1.0\gst/base/gstbytewriter.h(330): warning C4244: 'function' : conversion from 'gssize' to 'guint', possible loss of data
+     1>videorecordermux.c(477): warning C4101: 'map' : unreferenced local variable
+         videorecorder.c
+     1>C:\gstreamer\1.0\x86\include\glib-2.0\glib/gmacros.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>C:\gstreamer\1.0\x86\include\glib-2.0\gobject/gsignal.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>videorecorder.c(11): warning C4013: 'register_videorecordermux' undefined; assuming extern returning int
+     1>videorecorder.c(14): warning C4013: 'register_mymatroskamux' undefined; assuming extern returning int
+         matroska-mux.c
+     1>C:\gstreamer\1.0\x86\include\glib-2.0\glib/gmacros.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>C:\gstreamer\1.0\x86\include\glib-2.0\gobject/gsignal.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>C:\gstreamer\1.0\x86\include\gstreamer-1.0\gst/base/gstbytewriter.h(310): warning C4244: '+=' : conversion from 'gssize' to 'guint', possible loss of data
+     1>C:\gstreamer\1.0\x86\include\gstreamer-1.0\gst/base/gstbytewriter.h(330): warning C4244: 'function' : conversion from 'gssize' to 'guint', possible loss of data
+     1>matroska-mux.c(758): warning C4244: '=' : conversion from 'double' to 'guint8', possible loss of data
+     1>matroska-mux.c(759): warning C4244: '=' : conversion from 'double' to 'guint8', possible loss of data
+     1>matroska-mux.c(760): warning C4244: '=' : conversion from 'double' to 'guint8', possible loss of data
+     1>matroska-mux.c(1031): warning C4133: 'function' : incompatible types - from 'GstVideoMultiviewFlags *' to 'guint *'
+     1>matroska-mux.c(1147): warning C4244: '+=' : conversion from 'gsize' to 'gint', possible loss of data
+     1>matroska-mux.c(1264): warning C4244: '=' : conversion from 'gsize' to 'guint', possible loss of data
+     1>matroska-mux.c(1326): warning C4244: '+=' : conversion from 'gsize' to 'guint', possible loss of data
+     1>matroska-mux.c(1331): warning C4244: '+=' : conversion from 'gsize' to 'guint', possible loss of data
+     1>matroska-mux.c(1350): warning C4244: '+=' : conversion from 'gsize' to 'guint', possible loss of data
+     1>matroska-mux.c(1544): warning C4018: '<' : signed/unsigned mismatch
+     1>matroska-mux.c(1556): warning C4244: '=' : conversion from 'gsize' to 'guint', possible loss of data
+     1>matroska-mux.c(1619): warning C4244: '=' : conversion from 'gsize' to 'guint', possible loss of data
+     1>matroska-mux.c(1954): warning C4244: '=' : conversion from 'double' to 'guint64', possible loss of data
+     1>matroska-mux.c(1989): warning C4244: '=' : conversion from 'gsize' to 'guint', possible loss of data
+     1>matroska-mux.c(2086): warning C4244: '+=' : conversion from 'gsize' to 'guint', possible loss of data
+     1>matroska-mux.c(2270): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>matroska-mux.c(2284): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>matroska-mux.c(2298): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>matroska-mux.c(2811): warning C4018: '>' : signed/unsigned mismatch
+     1>matroska-mux.c(3331): warning C4244: '=' : conversion from 'guint64' to 'guint8', possible loss of data
+     1>matroska-mux.c(3571): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>matroska-mux.c(3600): warning C4244: '=' : conversion from 'guint64' to 'guint16', possible loss of data
+     1>matroska-mux.c(3626): warning C4244: '=' : conversion from 'guint64' to 'gint16', possible loss of data
+     1>matroska-mux.c(3654): warning C4244: 'function' : conversion from 'gsize' to 'guint', possible loss of data
+         matroska-ids.c
+     1>C:\gstreamer\1.0\x86\include\glib-2.0\glib/gmacros.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>C:\gstreamer\1.0\x86\include\glib-2.0\gobject/gsignal.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>matroska-ids.c(134): warning C4244: 'function' : conversion from 'gsize' to 'guint', possible loss of data
+     1>matroska-ids.c(163): warning C4244: '=' : conversion from 'gsize' to 'guint', possible loss of data
+     1>matroska-ids.c(200): warning C4244: 'function' : conversion from 'gsize' to 'guint', possible loss of data
+     1>matroska-ids.c(218): warning C4244: 'function' : conversion from 'gsize' to 'guint', possible loss of data
+     1>matroska-ids.c(234): warning C4244: 'function' : conversion from 'gsize' to 'guint', possible loss of data
+     1>matroska-ids.c(249): warning C4244: 'function' : conversion from 'gsize' to 'guint', possible loss of data
+     1>matroska-ids.c(265): warning C4244: 'function' : conversion from 'gsize' to 'guint', possible loss of data
+     1>matroska-ids.c(327): warning C4018: '<' : signed/unsigned mismatch
+         ebml-write.c
+     1>C:\gstreamer\1.0\x86\include\glib-2.0\glib/gmacros.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>C:\gstreamer\1.0\x86\include\glib-2.0\gobject/gsignal.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>C:\gstreamer\1.0\x86\include\gstreamer-1.0\gst/base/gstbytewriter.h(310): warning C4244: '+=' : conversion from 'gssize' to 'guint', possible loss of data
+     1>C:\gstreamer\1.0\x86\include\gstreamer-1.0\gst/base/gstbytewriter.h(330): warning C4244: 'function' : conversion from 'gssize' to 'guint', possible loss of data
+     1>ebml-write.c(422): warning C4244: '=' : conversion from '__int64' to 'guint', possible loss of data
+     1>ebml-write.c(424): warning C4244: '=' : conversion from 'gsize' to 'guint', possible loss of data
+     1>ebml-write.c(498): warning C4244: 'function' : conversion from 'guint64' to 'guint', possible loss of data
+     1>ebml-write.c(514): warning C4244: 'function' : conversion from 'guint64' to 'guint', possible loss of data
+     1>ebml-write.c(541): warning C4018: '>=' : signed/unsigned mismatch
+     1>ebml-write.c(686): warning C4267: 'initializing' : conversion from 'size_t' to 'gint', possible loss of data
+     1>ebml-write.c(817): warning C4244: 'function' : conversion from 'guint64' to 'guint', possible loss of data
+         Generating Code...
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Gstreamer\test\GST_TEST\x64\Debug\libvediorecorder.dll" /INCREMENTAL /NOLOGO /LIBPATH:C:\gstreamer\1.0\x86\lib "gstreamer-1.0.lib" "glib-2.0.lib" "gobject-2.0.lib" "gstbase-1.0.lib" "gsttag-1.0.lib" "gstaudio-1.0.lib" "gstvideo-1.0.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Gstreamer\test\GST_TEST\x64\Debug\libvediorecorder.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Gstreamer\test\GST_TEST\x64\Debug\libvediorecorder.lib" /MACHINE:X64 /DLL "x64\Debug\ebml-write.obj"
+         "x64\Debug\matroska-ids.obj"
+         "x64\Debug\matroska-mux.obj"
+         x64\Debug\videorecorder.obj
+         x64\Debug\videorecordermux.obj
+            Creating library D:\Gstreamer\test\GST_TEST\x64\Debug\libvediorecorder.lib and object D:\Gstreamer\test\GST_TEST\x64\Debug\libvediorecorder.exp
+     1>ebml-write.obj : error LNK2019: unresolved external symbol g_intern_static_string referenced in function gst_ebml_write_get_type
+     1>matroska-mux.obj : error LNK2001: unresolved external symbol g_intern_static_string
+     1>videorecordermux.obj : error LNK2001: unresolved external symbol g_intern_static_string
+     1>ebml-write.obj : error LNK2019: unresolved external symbol g_once_init_enter referenced in function gst_ebml_write_get_type
+     1>matroska-mux.obj : error LNK2001: unresolved external symbol g_once_init_enter
+     1>videorecordermux.obj : error LNK2001: unresolved external symbol g_once_init_enter
+     1>ebml-write.obj : error LNK2019: unresolved external symbol g_once_init_leave referenced in function gst_ebml_write_get_type
+     1>matroska-mux.obj : error LNK2001: unresolved external symbol g_once_init_leave
+     1>videorecordermux.obj : error LNK2001: unresolved external symbol g_once_init_leave
+     1>ebml-write.obj : error LNK2019: unresolved external symbol g_malloc referenced in function gst_ebml_write_master_finish_full
+     1>matroska-mux.obj : error LNK2001: unresolved external symbol g_malloc
+     1>ebml-write.obj : error LNK2019: unresolved external symbol g_try_realloc referenced in function _gst_byte_writer_ensure_free_space_inline
+     1>ebml-write.obj : error LNK2019: unresolved external symbol g_return_if_fail_warning referenced in function _gst_byte_writer_put_data_inline
+     1>matroska-mux.obj : error LNK2001: unresolved external symbol g_return_if_fail_warning
+     1>videorecordermux.obj : error LNK2001: unresolved external symbol g_return_if_fail_warning
+     1>ebml-write.obj : error LNK2019: unresolved external symbol g_type_class_peek_parent referenced in function gst_ebml_write_class_intern_init
+     1>matroska-mux.obj : error LNK2001: unresolved external symbol g_type_class_peek_parent
+     1>videorecordermux.obj : error LNK2001: unresolved external symbol g_type_class_peek_parent
+     1>ebml-write.obj : error LNK2019: unresolved external symbol g_type_register_static_simple referenced in function gst_ebml_write_get_type
+     1>matroska-mux.obj : error LNK2001: unresolved external symbol g_type_register_static_simple
+     1>videorecordermux.obj : error LNK2001: unresolved external symbol g_type_register_static_simple
+     1>ebml-write.obj : error LNK2019: unresolved external symbol g_type_class_adjust_private_offset referenced in function gst_ebml_write_class_intern_init
+     1>matroska-mux.obj : error LNK2001: unresolved external symbol g_type_class_adjust_private_offset
+     1>videorecordermux.obj : error LNK2001: unresolved external symbol g_type_class_adjust_private_offset
+     1>ebml-write.obj : error LNK2019: unresolved external symbol g_type_check_instance_cast referenced in function gst_ebml_write_new
+     1>matroska-mux.obj : error LNK2001: unresolved external symbol g_type_check_instance_cast
+     1>videorecordermux.obj : error LNK2001: unresolved external symbol g_type_check_instance_cast
+     1>ebml-write.obj : error LNK2019: unresolved external symbol g_type_check_class_cast referenced in function gst_ebml_write_class_init
+     1>matroska-mux.obj : error LNK2001: unresolved external symbol g_type_check_class_cast
+     1>videorecordermux.obj : error LNK2001: unresolved external symbol g_type_check_class_cast
+     1>ebml-write.obj : error LNK2019: unresolved external symbol g_object_new referenced in function gst_ebml_write_new
+     1>matroska-mux.obj : error LNK2001: unresolved external symbol g_object_new
+     1>ebml-write.obj : error LNK2019: unresolved external symbol gst_object_get_type referenced in function gst_ebml_write_get_type
+     1>videorecordermux.obj : error LNK2001: unresolved external symbol gst_object_get_type
+     1>ebml-write.obj : error LNK2019: unresolved external symbol gst_object_ref referenced in function gst_ebml_write_new
+     1>videorecordermux.obj : error LNK2001: unresolved external symbol gst_object_ref
+     1>ebml-write.obj : error LNK2019: unresolved external symbol gst_object_unref referenced in function gst_ebml_write_finalize
+     1>matroska-mux.obj : error LNK2001: unresolved external symbol gst_object_unref
+     1>videorecordermux.obj : error LNK2001: unresolved external symbol gst_object_unref
+     1>ebml-write.obj : error LNK2019: unresolved external symbol gst_mini_object_unref referenced in function gst_buffer_unref
+     1>matroska-ids.obj : error LNK2001: unresolved external symbol gst_mini_object_unref
+     1>matroska-mux.obj : error LNK2001: unresolved external symbol gst_mini_object_unref
+     1>videorecordermux.obj : error LNK2001: unresolved external symbol gst_mini_object_unref
+     1>ebml-write.obj : error LNK2019: unresolved external symbol gst_mini_object_make_writable referenced in function gst_ebml_write_element_push
+     1>matroska-mux.obj : error LNK2001: unresolved external symbol gst_mini_object_make_writable
+     1>ebml-write.obj : error LNK2019: unresolved external symbol gst_buffer_new_allocate referenced in function gst_ebml_write_element_new
+     1>ebml-write.obj : error LNK2019: unresolved external symbol gst_buffer_new_wrapped referenced in function gst_ebml_write_master_finish_full
+     1>matroska-ids.obj : error LNK2001: unresolved external symbol gst_buffer_new_wrapped
+     1>matroska-mux.obj : error LNK2001: unresolved external symbol gst_buffer_new_wrapped
+     1>ebml-write.obj : error LNK2019: unresolved external symbol gst_buffer_get_size referenced in function gst_ebml_stop_streamheader
+     1>matroska-mux.obj : error LNK2001: unresolved external symbol gst_buffer_get_size
+     1>videorecordermux.obj : error LNK2001: unresolved external symbol gst_buffer_get_size
+     1>ebml-write.obj : error LNK2019: unresolved external symbol gst_buffer_set_size referenced in function gst_ebml_write_uint
+     1>ebml-write.obj : error LNK2019: unresolved external symbol gst_buffer_map referenced in function gst_ebml_write_element_new
+     1>matroska-mux.obj : error LNK2001: unresolved external symbol gst_buffer_map
+     1>ebml-write.obj : error LNK2019: unresolved external symbol gst_buffer_unmap referenced in function gst_ebml_write_uint
+     1>matroska-mux.obj : error LNK2001: unresolved external symbol gst_buffer_unmap
+     1>ebml-write.obj : error LNK2019: unresolved external symbol gst_segment_init referenced in function gst_ebml_writer_send_segment_event
+     1>videorecordermux.obj : error LNK2001: unresolved external symbol gst_segment_init
+     1>ebml-write.obj : error LNK2019: unresolved external symbol gst_event_new_segment referenced in function gst_ebml_writer_send_segment_event
+     1>ebml-write.obj : error LNK2019: unresolved external symbol gst_pad_push referenced in function gst_ebml_write_flush_cache
+     1>ebml-write.obj : error LNK2019: unresolved external symbol gst_pad_push_event referenced in function gst_ebml_writer_send_segment_event
+     1>matroska-mux.obj : error LNK2001: unresolved external symbol gst_pad_push_event
+     1>ebml-write.obj : error LNK2019: unresolved external symbol gst_debug_log referenced in function gst_ebml_start_streamheader
+     1>matroska-ids.obj : error LNK2001: unresolved external symbol gst_debug_log
+     1>matroska-mux.obj : error LNK2001: unresolved external symbol gst_debug_log
+     1>videorecordermux.obj : error LNK2001: unresolved external symbol gst_debug_log
+     1>ebml-write.obj : error LNK2019: unresolved external symbol _gst_debug_category_new referenced in function gst_ebml_write_get_type
+     1>matroska-mux.obj : error LNK2001: unresolved external symbol _gst_debug_category_new
+     1>videorecordermux.obj : error LNK2001: unresolved external symbol _gst_debug_category_new
+     1>ebml-write.obj : error LNK2019: unresolved external symbol gst_byte_reader_set_pos referenced in function gst_byte_writer_set_pos
+     1>ebml-write.obj : error LNK2019: unresolved external symbol gst_byte_writer_new_with_size referenced in function gst_ebml_start_streamheader
+     1>ebml-write.obj : error LNK2019: unresolved external symbol gst_byte_writer_free referenced in function gst_ebml_write_reset
+     1>ebml-write.obj : error LNK2019: unresolved external symbol gst_byte_writer_free_and_get_buffer referenced in function gst_ebml_stop_streamheader
+     1>ebml-write.obj : error LNK2001: unresolved external symbol __imp__gst_debug_min
+     1>matroska-ids.obj : error LNK2001: unresolved external symbol __imp__gst_debug_min
+     1>matroska-mux.obj : error LNK2001: unresolved external symbol __imp__gst_debug_min
+     1>videorecordermux.obj : error LNK2001: unresolved external symbol __imp__gst_debug_min
+     1>matroska-ids.obj : error LNK2019: unresolved external symbol g_array_free referenced in function gst_matroska_track_free
+     1>matroska-mux.obj : error LNK2001: unresolved external symbol g_array_free
+     1>matroska-ids.obj : error LNK2019: unresolved external symbol g_free referenced in function gst_matroska_track_free
+     1>matroska-mux.obj : error LNK2001: unresolved external symbol g_free
+     1>videorecordermux.obj : error LNK2001: unresolved external symbol g_free
+     1>matroska-ids.obj : error LNK2019: unresolved external symbol g_realloc_n referenced in function gst_matroska_track_init_video_context
+     1>matroska-mux.obj : error LNK2001: unresolved external symbol g_realloc_n
+     1>matroska-ids.obj : error LNK2019: unresolved external symbol g_log referenced in function gst_matroska_track_init_video_context
+     1>matroska-mux.obj : error LNK2001: unresolved external symbol g_log
+     1>videorecordermux.obj : error LNK2001: unresolved external symbol g_log
+     1>matroska-ids.obj : error LNK2019: unresolved external symbol g_memdup referenced in function gst_matroska_parse_xiph_stream_headers
+     1>matroska-ids.obj : error LNK2019: unresolved external symbol g_assertion_message_expr referenced in function gst_matroska_track_init_video_context
+     1>matroska-mux.obj : error LNK2001: unresolved external symbol g_assertion_message_expr
+     1>videorecordermux.obj : error LNK2001: unresolved external symbol g_assertion_message_expr
+     1>matroska-ids.obj : error LNK2019: unresolved external symbol gst_buffer_list_new referenced in function gst_matroska_parse_xiph_stream_headers
+     1>matroska-ids.obj : error LNK2019: unresolved external symbol gst_buffer_list_insert referenced in function gst_matroska_parse_xiph_stream_headers
+     1>matroska-ids.obj : error LNK2019: unresolved external symbol _gst_debug_dump_mem referenced in function gst_matroska_parse_xiph_stream_headers
+     1>matroska-ids.obj : error LNK2001: unresolved external symbol __imp_GST_CAT_DEFAULT
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol g_array_sized_new referenced in function gst_matroska_mux_get_type
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol g_array_append_vals referenced in function gst_matroska_mux_create_uid
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol g_array_remove_range referenced in function gst_matroska_mux_reset
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol g_snprintf referenced in function gst_matroska_mux_handle_sink_event
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol g_malloc0 referenced in function gst_matroska_mux_video_pad_setcaps
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol g_realloc referenced in function speex_streamheader_to_codecdata
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol g_malloc0_n referenced in function gst_matroska_mux_get_type
+     1>videorecordermux.obj : error LNK2001: unresolved external symbol g_malloc0_n
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol g_get_current_time referenced in function gst_matroska_mux_start
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol g_random_int referenced in function gst_matroska_mux_create_uid
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol g_strdup referenced in function gst_matroska_mux_get_type
+     1>videorecordermux.obj : error LNK2001: unresolved external symbol g_strdup
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol g_strdup_printf referenced in function gst_matroska_mux_request_new_pad
+     1>videorecordermux.obj : error LNK2001: unresolved external symbol g_strdup_printf
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol g_strjoinv referenced in function gst_matroska_mux_build_vobsub_private
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol g_type_name referenced in function gst_matroska_mux_set_property
+     1>videorecordermux.obj : error LNK2001: unresolved external symbol g_type_name
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol g_type_register_static referenced in function gst_matroska_mux_get_type
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol g_type_add_interface_static referenced in function gst_matroska_mux_get_type
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol g_type_check_instance_is_a referenced in function gst_pad_set_caps
+     1>videorecordermux.obj : error LNK2001: unresolved external symbol g_type_check_instance_is_a
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol g_value_init referenced in function gst_matroska_mux_stop_streamheader
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol g_value_unset referenced in function gst_matroska_mux_write_simple_tag
+     1>videorecordermux.obj : error LNK2001: unresolved external symbol g_value_unset
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol g_value_peek_pointer referenced in function speex_streamheader_to_codecdata
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol g_cclosure_marshal_generic referenced in function gst_matroska_mux_get_type
+     1>videorecordermux.obj : error LNK2001: unresolved external symbol g_cclosure_marshal_generic
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol g_signal_new referenced in function gst_matroska_mux_get_type
+     1>videorecordermux.obj : error LNK2001: unresolved external symbol g_signal_new
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol g_signal_emit referenced in function gst_matroska_mux_finish
+     1>videorecordermux.obj : error LNK2001: unresolved external symbol g_signal_emit
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol g_value_set_boxed referenced in function gst_matroska_mux_stop_streamheader
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol g_value_get_boxed referenced in function gst_matroska_mux_video_pad_setcaps
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol g_object_class_install_property referenced in function gst_matroska_mux_get_type
+     1>videorecordermux.obj : error LNK2001: unresolved external symbol g_object_class_install_property
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol g_object_notify referenced in function gst_matroska_mux_start
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol g_param_spec_boolean referenced in function gst_matroska_mux_get_type
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol g_param_spec_int referenced in function gst_matroska_mux_get_type
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol g_param_spec_int64 referenced in function gst_matroska_mux_get_type
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol g_param_spec_string referenced in function gst_matroska_mux_get_type
+     1>videorecordermux.obj : error LNK2001: unresolved external symbol g_param_spec_string
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol g_value_set_boolean referenced in function gst_matroska_mux_get_property
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol g_value_get_boolean referenced in function gst_matroska_mux_set_property
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol g_value_set_int referenced in function gst_matroska_mux_get_property
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol g_value_get_int referenced in function gst_matroska_mux_set_property
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol g_value_set_int64 referenced in function gst_matroska_mux_get_property
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol g_value_get_int64 referenced in function gst_matroska_mux_set_property
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol g_value_set_string referenced in function gst_matroska_mux_get_property
+     1>videorecordermux.obj : error LNK2001: unresolved external symbol g_value_set_string
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol g_value_get_string referenced in function gst_matroska_mux_set_property
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol g_value_dup_string referenced in function gst_matroska_mux_set_property
+     1>videorecordermux.obj : error LNK2001: unresolved external symbol g_value_dup_string
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_mini_object_ref referenced in function gst_buffer_ref
+     1>videorecordermux.obj : error LNK2001: unresolved external symbol gst_mini_object_ref
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_mini_object_copy referenced in function gst_caps_copy
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_mini_object_replace referenced in function gst_caps_replace
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_buffer_extract referenced in function speex_streamheader_to_codecdata
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_buffer_memcmp referenced in function theora_streamheader_to_codecdata
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_buffer_copy_into referenced in function gst_matroska_mux_handle_dirac_packet
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_buffer_append referenced in function gst_matroska_mux_handle_dirac_packet
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_structure_get_name referenced in function gst_matroska_mux_video_pad_setcaps
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_structure_has_name referenced in function gst_matroska_mux_handle_sink_event
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_structure_set_value referenced in function gst_matroska_mux_stop_streamheader
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_structure_get_value referenced in function gst_matroska_mux_video_pad_setcaps
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_structure_get_int referenced in function gst_matroska_mux_handle_sink_event
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_structure_get_string referenced in function gst_matroska_mux_handle_sink_event
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_structure_get_fraction referenced in function gst_matroska_mux_video_pad_setcaps
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_structure_get_flagset referenced in function gst_matroska_mux_video_pad_setcaps
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_caps_new_empty_simple referenced in function gst_matroska_mux_start
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_caps_get_structure referenced in function gst_matroska_mux_video_pad_setcaps
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_caps_is_fixed referenced in function gst_pad_set_caps
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_tag_list_new_empty referenced in function gst_matroska_pad_reset
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_tag_list_set_scope referenced in function gst_matroska_pad_reset
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_tag_list_get_scope referenced in function gst_matroska_mux_handle_sink_event
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_tag_list_is_empty referenced in function gst_matroska_mux_streams_have_tags
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_tag_list_insert referenced in function gst_matroska_mux_handle_sink_event
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_tag_list_foreach referenced in function gst_matroska_mux_start
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_tag_list_copy_value referenced in function gst_matroska_mux_write_simple_tag
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_tag_list_get_string referenced in function gst_matroska_mux_handle_sink_event
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_query_new_seeking referenced in function gst_matroska_mux_start
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_query_parse_seeking referenced in function gst_matroska_mux_start
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_event_get_structure referenced in function gst_matroska_mux_handle_sink_event
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_event_new_stream_start referenced in function gst_matroska_mux_start
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_event_new_eos referenced in function gst_matroska_mux_handle_buffer
+     1>videorecordermux.obj : error LNK2001: unresolved external symbol gst_event_new_eos
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_event_new_caps referenced in function gst_pad_set_caps
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_event_parse_caps referenced in function gst_matroska_mux_handle_sink_event
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_event_parse_tag referenced in function gst_matroska_mux_handle_sink_event
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_event_parse_toc referenced in function gst_matroska_mux_handle_sink_event
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_static_pad_template_get referenced in function gst_matroska_mux_get_type
+     1>videorecordermux.obj : error LNK2001: unresolved external symbol gst_static_pad_template_get
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_pad_get_type referenced in function gst_pad_set_caps
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_pad_new_from_template referenced in function gst_matroska_mux_get_type
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_pad_set_active referenced in function gst_matroska_mux_request_new_pad
+     1>videorecordermux.obj : error LNK2001: unresolved external symbol gst_pad_set_active
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_pad_is_active referenced in function gst_matroska_mux_start
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_pad_get_element_private referenced in function gst_matroska_mux_handle_sink_event
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_pad_set_event_function_full referenced in function gst_matroska_mux_get_type
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_pad_is_linked referenced in function gst_matroska_mux_start
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_pad_event_default referenced in function gst_matroska_mux_handle_src_event
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_pad_send_event referenced in function gst_pad_set_caps
+     1>videorecordermux.obj : error LNK2001: unresolved external symbol gst_pad_send_event
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_pad_peer_query referenced in function gst_matroska_mux_start
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_element_register referenced in function register_mymatroskamux
+     1>videorecordermux.obj : error LNK2001: unresolved external symbol gst_element_register
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_element_class_add_pad_template referenced in function gst_matroska_mux_get_type
+     1>videorecordermux.obj : error LNK2001: unresolved external symbol gst_element_class_add_pad_template
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_element_class_get_pad_template referenced in function gst_matroska_mux_get_type
+     1>videorecordermux.obj : error LNK2001: unresolved external symbol gst_element_class_get_pad_template
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_element_class_set_static_metadata referenced in function gst_matroska_mux_get_type
+     1>videorecordermux.obj : error LNK2001: unresolved external symbol gst_element_class_set_static_metadata
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_element_get_type referenced in function gst_matroska_mux_get_type
+     1>videorecordermux.obj : error LNK2001: unresolved external symbol gst_element_get_type
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_element_add_pad referenced in function gst_matroska_mux_get_type
+     1>videorecordermux.obj : error LNK2001: unresolved external symbol gst_element_add_pad
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_element_remove_pad referenced in function gst_matroska_mux_release_pad
+     1>videorecordermux.obj : error LNK2001: unresolved external symbol gst_element_remove_pad
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol _gst_element_error_printf referenced in function gst_matroska_mux_handle_buffer
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_element_message_full referenced in function gst_matroska_mux_handle_buffer
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_stream_error_quark referenced in function gst_matroska_mux_handle_buffer
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol _gst_debug_register_funcptr referenced in function gst_matroska_mux_get_type
+     1>videorecordermux.obj : error LNK2001: unresolved external symbol _gst_debug_register_funcptr
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_value_serialize referenced in function gst_matroska_mux_write_simple_tag
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_value_array_append_value referenced in function gst_matroska_mux_stop_streamheader
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_tag_setter_get_type referenced in function gst_matroska_mux_get_type
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_tag_setter_reset_tags referenced in function gst_matroska_mux_reset
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_tag_setter_merge_tags referenced in function gst_matroska_mux_handle_sink_event
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_tag_setter_get_tag_list referenced in function gst_matroska_mux_start
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_tag_setter_get_tag_merge_mode referenced in function gst_matroska_mux_handle_sink_event
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_toc_setter_get_type referenced in function gst_matroska_mux_get_type
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_toc_setter_reset referenced in function gst_matroska_mux_reset
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_toc_setter_get_toc referenced in function gst_matroska_mux_handle_sink_event
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_toc_setter_set_toc referenced in function gst_matroska_mux_handle_sink_event
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_util_guint64_to_gdouble referenced in function gst_matroska_mux_start
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_util_uint64_scale referenced in function gst_matroska_mux_audio_pad_setcaps
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_util_uint64_scale_int referenced in function theora_streamheader_to_codecdata
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_pad_use_fixed_caps referenced in function gst_matroska_mux_get_type
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_pad_peer_query_duration referenced in function gst_matroska_mux_start
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_audio_info_init referenced in function gst_matroska_mux_audio_pad_setcaps
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_audio_info_from_caps referenced in function gst_matroska_mux_audio_pad_setcaps
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_tag_get_language_code_iso_639_2B referenced in function gst_matroska_mux_handle_sink_event
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_collect_pads_new referenced in function gst_matroska_mux_get_type
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_collect_pads_set_buffer_function referenced in function gst_matroska_mux_get_type
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_collect_pads_set_event_function referenced in function gst_matroska_mux_get_type
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_collect_pads_set_clip_function referenced in function gst_matroska_mux_get_type
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_collect_pads_add_pad referenced in function gst_matroska_mux_request_new_pad
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_collect_pads_remove_pad referenced in function gst_matroska_mux_release_pad
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_collect_pads_start referenced in function gst_matroska_mux_change_state
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_collect_pads_stop referenced in function gst_matroska_mux_change_state
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_collect_pads_clip_running_time referenced in function gst_matroska_mux_get_type
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_collect_pads_event_default referenced in function gst_matroska_mux_handle_sink_event
+     1>matroska-mux.obj : error LNK2019: unresolved external symbol gst_video_multiview_mode_from_caps_string referenced in function gst_matroska_mux_video_pad_setcaps
+     1>matroska-mux.obj : error LNK2001: unresolved external symbol __imp__gst_buffer_type
+     1>matroska-mux.obj : error LNK2001: unresolved external symbol __imp__gst_value_array_type
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol g_atomic_int_set referenced in function mq_stream_ctx_new
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol g_atomic_int_inc referenced in function mq_stream_ctx_ref
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol g_atomic_int_dec_and_test referenced in function mq_stream_ctx_unref
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol g_quark_from_static_string referenced in function _do_init
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol g_mutex_init referenced in function gst_videorecorder_mux_init
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol g_mutex_clear referenced in function gst_videorecorder_mux_finalize
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol g_mutex_lock referenced in function gst_videorecorder_mux_set_property
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol g_mutex_unlock referenced in function gst_videorecorder_mux_set_property
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol g_cond_init referenced in function gst_videorecorder_mux_init
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol g_cond_clear referenced in function gst_videorecorder_mux_finalize
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol g_list_free referenced in function gst_videorecorder_mux_finalize
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol g_list_prepend referenced in function gst_videorecorder_mux_request_new_pad
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol g_list_remove referenced in function gst_videorecorder_mux_release_pad
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol g_list_foreach referenced in function gst_videorecorder_mux_finalize
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol g_str_equal referenced in function gst_videorecorder_mux_request_new_pad
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol g_queue_init referenced in function mq_stream_ctx_new
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol g_queue_clear referenced in function mq_stream_ctx_free
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol g_queue_foreach referenced in function mq_stream_ctx_free
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol g_slice_free1 referenced in function mq_stream_buf_free
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol g_value_reset referenced in function find_sink
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol g_signal_connect_data referenced in function create_elements
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol g_object_class_find_property referenced in function find_sink
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol g_object_set referenced in function create_elements
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol g_object_get referenced in function receive_recordinfo
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol g_object_get_qdata referenced in function gst_videorecorder_mux_release_pad
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol g_object_set_qdata referenced in function gst_videorecorder_mux_request_new_pad
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol g_value_set_object referenced in function gst_videorecorder_mux_get_property
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol g_value_get_object referenced in function find_sink
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol g_value_dup_object referenced in function gst_videorecorder_mux_set_property
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol g_param_spec_uint64 referenced in function gst_videorecorder_mux_class_init
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol g_param_spec_double referenced in function gst_videorecorder_mux_class_init
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol g_param_spec_object referenced in function gst_videorecorder_mux_class_init
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol g_value_set_uint64 referenced in function gst_videorecorder_mux_get_property
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol g_value_get_uint64 referenced in function gst_videorecorder_mux_set_property
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol g_value_set_double referenced in function gst_videorecorder_mux_get_property
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol g_value_get_double referenced in function gst_videorecorder_mux_set_property
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol gst_object_get_name referenced in function gst_videorecorder_mux_request_new_pad
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol gst_object_get_parent referenced in function receive_recordinfo
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol gst_iterator_next referenced in function find_sink
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol gst_iterator_resync referenced in function find_sink
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol gst_iterator_free referenced in function find_sink
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol gst_segment_to_running_time referenced in function handle_mq_output
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol gst_message_type_get_name referenced in function bus_handler
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol gst_event_copy_segment referenced in function handle_mq_output
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol gst_pad_probe_info_get_event referenced in function handle_mq_output
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol gst_pad_probe_info_get_buffer referenced in function handle_mq_output
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol gst_pad_add_probe referenced in function gst_videorecorder_mux_request_new_pad
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol gst_pad_remove_probe referenced in function gst_videorecorder_mux_release_pad
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol gst_pad_sticky_events_foreach referenced in function restart_context
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol gst_pad_link referenced in function gst_videorecorder_mux_request_new_pad
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol gst_pad_get_peer referenced in function gst_videorecorder_mux_release_pad
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol gst_element_factory_make referenced in function create_element
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol gst_element_get_static_pad referenced in function mq_sink_to_src
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol gst_element_get_request_pad referenced in function get_pads_from_mq
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol gst_element_request_pad referenced in function gst_videorecorder_mux_request_new_pad
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol gst_element_release_request_pad referenced in function gst_videorecorder_mux_request_new_pad
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol gst_element_sync_state_with_parent referenced in function start_next_fragment
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol gst_element_set_state referenced in function start_next_fragment
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol gst_bin_get_type referenced in function gst_videorecorder_mux_get_type
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol gst_bin_add referenced in function create_elements
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol gst_bin_remove referenced in function gst_videorecorder_reset
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol gst_bin_iterate_sinks referenced in function find_sink
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol gst_ghost_pad_get_type referenced in function gst_videorecorder_mux_release_pad
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol gst_ghost_pad_new referenced in function gst_videorecorder_mux_request_new_pad
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol gst_ghost_pad_get_target referenced in function gst_videorecorder_mux_release_pad
+     1>videorecordermux.obj : error LNK2019: unresolved external symbol gst_element_link referenced in function create_sink
+     1>D:\Gstreamer\test\GST_TEST\x64\Debug\libvediorecorder.dll : fatal error LNK1120: 238 unresolved externals
+     1>Done Building Project "D:\Gstreamer\test\GST_TEST\libvediorecorder\libvediorecorder.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.03
